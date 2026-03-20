@@ -18,8 +18,10 @@
     Edited for Orcinus-Library by hatoyama_kumiko
 */
 
-.printuser.avatarhover img {background:url(https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/img/userkarma_orca.png) no-repeat !important;}
-#login-status .printuser img {background:url(https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/img/userkarma_orca.png) no-repeat !important;}
+@import url('https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@90e0741/css/image.css');
+
+.printuser.avatarhover img {background:var(--userkarma-orca) no-repeat !important;}
+#login-status .printuser img {background:var(--userkarma-orca) no-repeat !important;}
 #avatar-hover-container {display: none;}
 
 /* 测试用：黑幕 */
