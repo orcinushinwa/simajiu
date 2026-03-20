@@ -19,8 +19,10 @@
     Edited for Carbon Monoxide by Cerenothoa
 */
 
-.printuser.avatarhover img {background:url(https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/img/userkarma_flower.png) no-repeat !important;}
-#login-status .printuser img {background:url(https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/img/userkarma_flower.png) no-repeat !important;}
+@import url('https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu/css/image.css');
+
+.printuser.avatarhover img {background:url(var(--userkarma-flower)) no-repeat !important;}
+#login-status .printuser img {background:url(var(--userkarma-flower)) no-repeat !important;}
 #avatar-hover-container {display: none;}
 
 /* 测试用：黑幕 */
@@ -41,7 +43,7 @@
 
 /* COMMON */
 div#container-wrap {
-    background: url(https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/img/body_bg_co.png) top left repeat-x;
+    background: url(var(--body-bg-co)) top left repeat-x;
 }
 
 #content-wrap {
