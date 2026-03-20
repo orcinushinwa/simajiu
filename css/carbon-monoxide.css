@@ -19,7 +19,7 @@
     Edited for Carbon Monoxide by Cerenothoa
 */
 
-@import url('https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@main/css/image.css');
+@import url('https://cdn.jsdelivr.net/gh/orcinushinwa/simajiu@90e0741/css/image.css');
 
 .printuser.avatarhover img {background:var(--userkarma-flower) no-repeat !important;}
 #login-status .printuser img {background:var(--userkarma-flower) no-repeat !important;}
