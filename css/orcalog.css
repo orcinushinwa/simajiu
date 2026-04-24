@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* 本css为github镜像文件，最终同步于2026年3月17日 */
+/* 本css为github镜像文件，最终同步于2026年4月24日 */
 
 @import url('https://cdn.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/fonts/font-bauhaus.css');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
@@ -211,8 +211,8 @@ sup {
     color: #ddd;
 }
 #login-status ul a {
-    color: #007;
     background: transparent;
+    color: #68f;
 }
 #account-topbutton {
     background: #ccc;
@@ -1520,4 +1520,13 @@ a.edit-section-button:hover {
 /* 给上面加个渐变看起来似乎好看一些 */
 #container {
     background: linear-gradient(180deg, #003 0px, #03091b 140px, #def1 140px, #0000 340px);
+}
+/* 修正了一下右上角的小菜单，但是这玩意谁用啊 */
+#account-options {
+     background: #111;
+     border: 1px solid #999;
+}
+#account-options li a:hover {
+    background: #333;
+    color: #fff;
 }
